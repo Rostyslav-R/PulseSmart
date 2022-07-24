@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/');
+    src: url('../font/?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-700.woff') format('woff'),
+        url('../font/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/MuseoSansCyrl-300.eot');
+    src: url('../font/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-300.woff') format('woff'),
+        url('../font/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../font/MuseoSansCyrl-500.eot');
+    src: url('../font/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+        url('../font/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../font/MuseoSansCyrl-500.woff') format('woff'),
+        url('../font/MuseoSansCyrl-500.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../font/icomoon.eot?r6ngdl');
+    src:  url('../font/icomoon.eot?r6ngdl#iefix') format('embedded-opentype'),
+        url('../font/icomoon.ttf?r6ngdl') format('truetype'),
+        url('../font/icomoon.woff?r6ngdl') format('woff'),
+        url('../font/icomoon.svg?r6ngdl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    }
+  
+    [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+  
+    .icon-pinterest:before {
+    content: "\e902";
+    }
+    .icon-facebook-f-brands:before {
+    content: "\e900";
+    }
+    .icon-instagram-square-brands:before {
+        content: "\e901";
+    }
+
