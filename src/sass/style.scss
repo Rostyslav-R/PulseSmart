@@ -5,7 +5,9 @@
 }
 .container {
     max-width: 950px;
-    height: 100%;
     margin: 0 auto;
-    background-color: $main-color;
 }
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'base/media';
