@@ -1,0 +1,58 @@
+// По системе сеток Large
+@media (max-width: 991px) {
+    .container {
+        padding: 0 15px;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+// По системе сеток Medium
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+}
+// По системе сеток Small
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__logo {
+            margin-bottom: 15px;
+        }
+        &__contacts {
+            align-items: center;
+        }
+    }
+    .promo {
+        padding: 20px 0 30px 0;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__header {
+            margin-bottom: 15px;
+            font-size: 30px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+        &__icons>*:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+        .button_main {
+            margin-top: 30px;
+        }
+    }
