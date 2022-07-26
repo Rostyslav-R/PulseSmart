@@ -1,0 +1,19 @@
+.consultations {
+    padding: 100px 0 92px 0;
+    background: url('../../img/consultation_bg.png') center (center/cover) no-repeat;
+    &__title {
+        margin-bottom: 8px;
+        font-size: 36px;
+        line-height: calc(54 / 36 * 100%);
+        text-align: left;
+        color: #FFFFFF;
+    }
+    &__descr {
+        max-width: 426px;
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(30 / 20 * 100%);
+        color: #FFFFFF;
+    }
+}
