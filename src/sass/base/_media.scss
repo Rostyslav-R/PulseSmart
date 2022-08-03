@@ -11,6 +11,13 @@
     .consultations {
         padding: 70px 0 70px 0;
     }
+    .carousel {
+        &__inner {
+            img {
+                width: 500px;
+            }
+        }
+    }
 }
 // По системе сеток Medium
 @media (max-width: 767px) {
@@ -47,6 +54,14 @@
     }
     .consultations {
         padding: 50px 0;
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            img {
+                width: 520px;
+            }
+        }
     }
 }
 // По системе сеток Small
@@ -112,5 +127,13 @@
     .feed-form {
         width: 290px;
         margin: 0 auto;
+    }
+    .carousel {
+        padding: 30px 0;
+        &__inner {
+            img {
+                width: 290px;
+            }
+        }
     }
 }
