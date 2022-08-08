@@ -30,6 +30,21 @@
             width: 33%;
         }
     }
+    .clients {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__item {
+            &:not(:last-child) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .button {
+        &_mini {
+            width: 100px;
+        }
+    }
 }
 // По системе сеток Medium
 @media (max-width: 767px) {
@@ -163,6 +178,29 @@
         }
         &-item {
             width: 100%;
+        }
+    }
+    .clients {
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__item {
+            flex-direction: column;
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+        }
+        &__img {
+            margin: 0 auto;
+        }
+        &__descr {
+            margin: 20px 0 0 0;
+        }
+        &__name {
+            text-align: center;
+        }
+        &__marathons {
+            text-align: center;
         }
     }
 }

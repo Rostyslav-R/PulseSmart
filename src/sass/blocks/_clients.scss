@@ -1,0 +1,41 @@
+.clients {
+    padding-bottom: 50px;
+    &__wrapper {
+        margin-top: 60px;
+    }
+    &__item {
+        display: flex;
+        justify-content: flex-start;
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
+    }
+    &__img {
+        display: block;
+        width: 169px;
+        height: 100%;
+        border-radius: 100%;
+    }
+    &__descr {
+        margin-left: 60px;
+    }
+    &__name {
+        font-size: 18px;
+        line-height: 100%;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+    &__marathons {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(22 / 14 * 100%);
+        color: #646464;
+    }
+    &__text {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: calc(24 / 16 * 100%);
+        color: #0D0D0D;
+    }
+}
