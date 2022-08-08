@@ -1,0 +1,57 @@
+.footer {
+    position: relative;
+    height: 630px;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        padding: 50px 0 56px 0;
+        background-color: #C70101;
+        & > *:not(:last-child) {
+            margin-bottom: 36px;
+        }
+    }
+    &__addr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: #fff;
+        text-align: center;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+    &__social {
+        text-align: center;
+        & > *:not(:last-child) {
+            margin-right: 27px;
+        }
+        &-item {
+            padding: 7px 10px 3px 10px;
+            border: 2px solid #fff;
+            border-radius: 100%;
+            font-size: 25px;
+            color: #fff;
+            text-decoration: none;
+            & .icon-facebook-f-brands {
+                padding: 5px 4px;
+            }
+            &:hover {
+                box-shadow: 0px 0px 15px 0px rgba(255,255,255,0.9);
+                color: #fff;
+            }
+        }
+    }
+}

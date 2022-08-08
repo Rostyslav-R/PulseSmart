@@ -203,4 +203,10 @@
             text-align: center;
         }
     }
+    .footer {
+        &__info {
+            padding: 20px 0;
+            width: 100%;
+        }
+    }
 }
