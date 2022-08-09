@@ -68,4 +68,30 @@ $(document).ready(function(){
         });
     });
 
+    function validateForms(form){
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Пожалуйста, введите свое имя!",
+                phone: "Пожалуйста, введите свой телефон!",
+                email: {
+                    required: "Пожалуйста, введите свою почту!",
+                    email: "Ваш почтовый адрес, должен содержать example@domain.com"
+                }
+            }
+        });
+    };
+
+    validateForms('#consultation-form');
+    validateForms('#consultation form');
+    validateForms('#order form');
+    
+    $('input[name=phone]').mask("+38 (999) 999-99-99");
 });
